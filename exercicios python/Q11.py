@@ -3,4 +3,4 @@
 #  usando a seguinte fórmula: (72.7*altura) - 58
 altura = float(input("Digite a sua altura: "))
 p = (72.7 * altura) - 58
-print(f'Seu peso é {p}')
+print('Seu peso é %.2f'.format(p))

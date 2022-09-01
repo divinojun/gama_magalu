@@ -5,9 +5,9 @@
 n1 = int(input("Digite 1ª valor: "))
 n2 = int(input("Digite 2º valor: "))
 r = float(input("Digite valor real: "))
-pr = (n1 * 2) / 2
+pr = (n1 *2) * (n2 * .5)
 sm = (n1 * 3) + r
-cub = r * 3
+cub = r ** 3
 print(f'Dobro do produto = {pr}')
 print(f'A soma do triplo = {sm}')
 print(f'Elevado ao cubo {cub}')
