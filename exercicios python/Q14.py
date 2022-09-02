@@ -14,9 +14,9 @@ total = salario * horas
 inss = total * 8 / 100
 imprenda = total * 11 / 100
 sind = total * 5 / 100
-salaliquido = total - inss - imprenda - sind
-print('Salario bruto: ', total)
-print('INNS (8%) : ', inss)
-print('IR (11%) : ',imprenda)
+salaliquido = total - inss - imprenda - sind     
+print('Salario bruto: ', total)     
+print('INNS (8%) : ', inss)     
+print('IR (11%) : ',imprenda)     
 print('Sindicato (5%) : ', sind)
-print('Salario liquido : RS', salaliquido)
+print('Salario liquido : RS', salaliquido)     

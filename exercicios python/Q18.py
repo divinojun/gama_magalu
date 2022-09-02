@@ -4,5 +4,6 @@
 # (em minutos).
 tamanho = float(input("Tamanho do arquivo (MB): "))
 velocidade = float(input("velocidade: "))
-tempo = tamanho / (velocidade / 8)
-print('Tempo aproximadamente: ', tempo)
+tempo = tamanho / (velocidade / 8)  // 60
+segundos = tamanho / velocidade
+print('Tempo aproximadamente: ', tempo, segundos)

@@ -10,7 +10,7 @@
 # Acrescente 10% de folga e sempre arredonde os valores para cima, isto é,
 #  considere latas cheias.
 
-metro = int(input("Digite o m² a ser pintado: "))
+metro = float(input("Digite o m² a ser pintado: "))
 litros = metro / 6
 latas = litros / 18
 
@@ -29,6 +29,6 @@ mistura_galao = int(litros - (mistura_lata * 18) / 3.6)
 if litros - (mistura_lata * 18) % 3.6 != 0:
     mistura_galao += 1
 
-print('Apenas latas de 18 litros: %d' %latas, 'preço: %d' %preco)
-print('Apenas Galões de 3.6 litros: %d' %galoes, 'preço: %d' %preco2)
+print('Apenas latas de 18 litros: %d' %latas, '\npreço: %d' %preco)
+print('Apenas Galões de 3.6 litros: %d' %galoes, '\npreço: %d' %preco2)
 print('Mistura: %d latas e %d galoes = %.2f'%(mistura_lata, mistura_galao, ((mistura_lata * 80)+ (mistura_galao * 25))))

@@ -5,7 +5,7 @@
 #  Informe ao usuário a quantidades de latas de tinta a serem compradas 
 # e o preço total.
 
-metro = int(input('Digite o tamanho em metro a ser pintado: '))
+metro = float(input('Digite o tamanho em metro a ser pintado: '))
 litros = metro / 3
 prec = 80.0
 capac = 18
